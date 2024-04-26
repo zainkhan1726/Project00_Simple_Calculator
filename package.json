@@ -1,6 +1,6 @@
 {
   "name": "zain-khan-179-simple-calculator",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "a simple calculator",
   "main": "main.js",
   "type": "module",
