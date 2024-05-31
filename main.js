@@ -29,11 +29,11 @@ while (condition) {
         console.log(chalk.cyan("Please select a valid operator"));
     }
     const answer2 = await inquirer.prompt({
-        type: 'input',
-        name: 'continue',
-        message: 'Enter to continue or type quit to exit.'
+        type: "input",
+        name: "continue",
+        message: "Enter to continue or type q to exit.",
     });
-    if (answer2.continue === "quit") {
+    if (answer2.continue === "q") {
         condition = false;
     }
 }
