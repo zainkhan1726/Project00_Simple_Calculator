@@ -54,8 +54,8 @@ Simple Calculator CLI
 ? Enter second number 10
 ? select one of the opereator to perform operation Addition
 15
-? Enter to continue or enter q to exit.
-
+? Enter to continue or  q to exit.
+```
 
 
 #### Conclusion
