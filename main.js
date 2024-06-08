@@ -31,7 +31,7 @@ while (condition) {
     const answer2 = await inquirer.prompt({
         type: "input",
         name: "continue",
-        message: "Enter to continue or type q to exit.",
+        message: "Enter to continue or enter q to exit.",
     });
     if (answer2.continue === "q") {
         condition = false;
